@@ -246,7 +246,7 @@ function talk() {
     const answer = matchQuestion(user);
     if (answer === "Sorry, I didn't understand your question.") {
         document.getElementById("chatLog").innerHTML =
-            "Sorry,I didn't understand <br>";
+            "Sorry,I didn't understand Try Typing Hi, Courses, HODs, Principal, CSE, ECE, EEE, ME, CV, DS, Director, Deputy Director(DD) and etc. <br>";
     }   else {
         document.getElementById("chatLog").innerHTML = answer + "<br>";
     }
